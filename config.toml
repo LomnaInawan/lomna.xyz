@@ -1,3 +1,31 @@
-baseURL = "http://example.org/"
+baseURL = "http://lomna.xyz/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Anmol's Website"
+theme = "risotto"
+
+# Sidebar: about/bio
+[params.about]
+title = "LINKS"
+description = "My [Github](https://github.com/lomna-dev) and [Gitea](https://git.lomna.xyz)."
+logo = "images/banner.svg"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/lomna-dev"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIN"
+url = "https://www.linkedin.com/in/anmol-nawani-b35a24250/"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-git-alt"
+title = "Gitea"
+url = "https://git.lomna.xyz"
+
