@@ -1,4 +1,4 @@
-baseURL = "http://lomna.xyz/"
+baseURL = "https://lomna.xyz/"
 languageCode = "en-us"
 title = "Anmol's Website"
 theme = "risotto"
